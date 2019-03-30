@@ -17,8 +17,9 @@ Sample Html code
     }
 
 ```
-Supported HTML tags
+##Supported HTML tags
 Tags supported by Android (history of Html class)
+```html
 <p>
 <div> handled exactly like <p>
 <br>
@@ -40,3 +41,4 @@ Tags supported by Android (history of Html class)
 <font size="..." color="..." face="...">
 <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
 <a href="...">
+ ```
