@@ -6,12 +6,14 @@ Displaying <img> tag with style attribute from remote URL.
 
 Sample Html code
 ```html
- <img alt="" src="https://www.android.com/static/2016/img/logo-android-green_1x.png" style="height:51px; width:208px" />
+ <img alt="" src="https://www.android.com/static/2016/img/logo-android-green_1x.png"
+      style="height:51px; width:208px" />
 ```
 
 ```java 
     private Spanned setSpannedText(String htmlText, TextView textView) {
-        Spanned spanned = Html.fromHtml(htmlText, new HtmlImageGetter(htmlText, textView, getResources(), Picasso.get()), null);
+        Spanned spanned = Html.fromHtml(htmlText, new HtmlImageGetter(htmlText, textView
+                   , getResources(), Picasso.get()), null);
         textView.setText(spanned);
         return spanned;
     }
