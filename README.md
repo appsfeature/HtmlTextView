@@ -17,7 +17,7 @@ Sample Html code
     }
 
 ```
-##Supported HTML tags
+## Supported HTML tags
 Tags supported by Android (history of Html class)
 ```html
 <p>
